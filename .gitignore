@@ -1,0 +1,23 @@
+# ESP-IDF Build directory
+build/
+
+# ESP-IDF Configuration
+sdkconfig.old
+
+# ESP-IDF Component Manager
+managed_components/
+dependencies.lock
+
+# IDE / Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python virtual environments (if created locally)
+venv/
+.env/
+
+# OS generated files
+.DS_Store
+Thumbs.db
