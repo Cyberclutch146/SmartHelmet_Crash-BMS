@@ -1,0 +1,37 @@
+# ESP-IDF
+build/
+sdkconfig
+sdkconfig.old
+*.bin
+*.elf
+*.map
+.ninja*
+CMakeCache.txt
+CMakeFiles/
+Makefile
+compile_commands.json
+.vscode/
+
+# STM32CubeIDE
+Debug/
+Release/
+*.launch
+.metadata/
+.settings/
+.cproject
+.project
+.mxproject
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+
+# OS Generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
